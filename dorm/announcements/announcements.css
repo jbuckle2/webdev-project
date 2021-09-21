@@ -1,0 +1,68 @@
+/* Navbar CSS for all dorm pages */
+.navbar {
+    /* flexbox styles */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+  
+    list-style: none;
+    margin: 0;
+    background: #00b8ef;
+}
+
+.navbar a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+}
+  
+.navbar a:hover {
+    background: #30379c;
+}
+
+.heading {
+    background: #30379c;
+    color: white;
+    padding: .5em;
+}
+
+.heading img {
+    float: right;
+    max-width: 50%;
+    height: 100px;
+    padding: 1em;
+}
+
+.heading h1, h2 {
+    position: relative;
+}
+
+/* Font family that is used for the majority of the site */
+body {
+    font-family: 'DM Sans';
+}
+
+h1, h2 {
+    font-weight: bold;
+    padding: .5em;
+    padding-bottom: 0em;
+}
+
+/* Cards used for most of the site */
+.card-img-top {
+    height: 275px;
+    width: auto;
+    text-align: center;
+    margin: auto;
+}
+
+/* Override of Bootstrap's primary and secondary colors to make them dorm color theme */
+.card-body {
+    padding: 1em;
+    background-color: #00b8ef;
+}
+
+.card-header {
+    background-color: #30379c;
+}

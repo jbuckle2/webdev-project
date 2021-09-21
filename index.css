@@ -1,0 +1,12 @@
+
+body {
+    font-family: 'DM Sans';
+    margin: auto;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    padding: .5em;
+    padding-bottom: 0em;
+}

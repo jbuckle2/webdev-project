@@ -1,0 +1,70 @@
+/* Navbar CSS for all dorm pages */
+.navbar {
+    /* flexbox styles */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+  
+    list-style: none;
+    margin: 0;
+    background: #00b8ef;
+}
+
+.navbar a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+}
+  
+.navbar a:hover {
+    background: #30379c;
+}
+
+.heading {
+    background: #30379c;
+    color: white;
+    padding: .5em;
+}
+
+.heading img {
+    float: right;
+    max-width: 50%;
+    height: 100px;
+    padding: 1em;
+}
+
+.heading h1, h2 {
+    position: relative;
+}
+
+/* Font family that is used for the majority of the site */
+body {
+    font-family: 'DM Sans';
+}
+
+h1, h2 {
+    font-weight: bold;
+    padding: .5em;
+    padding-bottom: 0em;
+}
+
+.card-img-top {
+    height: 275px;
+    width: auto;
+    align: center;
+    margin: auto;
+}
+
+.card-body {
+    padding: 1em;
+}
+
+.card-header {
+    background-color: #30379c;
+}
+
+/* Second font family for site - used in the "draft" chat section */
+body .chat-container {
+    font-family: 'Indie Flower';
+}
