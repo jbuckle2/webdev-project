@@ -24,7 +24,7 @@ function Login() {
                     id="email"
                     required
                 />
-                <br>
+                <br />
                 <label for="psw"><b>Password: </b></label>
                 <input
                     type="password"
@@ -33,7 +33,7 @@ function Login() {
                     id="psw"
                     required
                 />
-                <hr>
+                <hr />
                 <a class="btn btn-primary" href="../dorm/home/home.html" role="button">Log In</a>
             </div>
         </form>
