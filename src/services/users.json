@@ -1,0 +1,80 @@
+{
+    "jbuckle2@nd.edu": {
+        "firstName": "Julia",
+        "lastName": "Buckley",
+        "passwordHash": "md5sum",
+        "neighborhood": "Irish Crossings"
+    },
+    "shayden@nd.edu": {
+        "firstName": "Stuart",
+        "lastName": "Hayden",
+        "passwordHash": "md5sum",
+        "neighborhood": "Irish Crossings"
+    },
+    "jhracho@nd.edu": {
+        "firstName": "Jake",
+        "lastName": "Hracho",
+        "passwordHash": "md5sum",
+        "neighborhood": "Irish Flats"
+    }, 
+    "ntucker2@nd.edu": {
+        "firstName": "Nora",
+        "lastName": "Tucker",
+        "passwordHash": "md5sum",
+        "neighborhood": "Other"
+    },
+    "tdavis21@nd.edu": {
+        "firstName": "Thomas",
+        "lastName": "Davis",
+        "passwordHash": "md5sum",
+        "neighborhood": "Irish Crossings"
+    }, 
+    "mroger24@nd.edu": {
+        "firstName": "Nora",
+        "lastName": "Tucker",
+        "passwordHash": "md5sum",
+        "neighborhood": "Other"
+    },
+    "rfinn2@nd.edu": {
+        "firstName": "Rory",
+        "lastName": "Finn",
+        "passwordHash": "md5sum",
+        "neighborhood": "Legacy Village"
+    },
+    "arecker2@nd.edu": {
+        "firstName": "Adam",
+        "lastName": "Recker",
+        "passwordHash": "md5sum",
+        "neighborhood": "Irish Crossings"
+    },
+    "nkloska@nd.edu": {
+        "firstName": "Nicholas",
+        "lastName": "Kloska",
+        "passwordHash": "md5sum",
+        "neighborhood": "Other"
+    },
+    "mtupy@nd.edu": {
+        "firstName": "Madeline",
+        "lastName": "Tupy",
+        "passwordHash": "md5sum",
+        "neighborhood": "Irish Crossings"
+    },
+    "dnewton@nd.edu": {
+        "firstName": "David",
+        "lastName": "Newton",
+        "passwordHash": "md5sum",
+        "neighborhood": "Irish Row"
+    }, 
+    "ckost@nd.edu": {
+        "firstName": "Caroline",
+        "lastName": "Kost",
+        "passwordHash": "md5sum",
+        "neighborhood": "Campus View"
+    },
+    "lphifer@nd.edu": {
+        "firstName": "Lucrezia",
+        "lastName": "Phifer",
+        "passwordHash": "md5sum",
+        "neighborhood": "Irish Crossings"
+    }
+}
