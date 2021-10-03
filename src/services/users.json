@@ -1,93 +1,93 @@
-{
-    "0": {
+[
+    {
         "email": "jbuckle2@nd.edu",
         "firstName": "Julia",
         "lastName": "Buckley",
         "passwordHash": "md5sum",
         "neighborhood": "Irish Crossings"
     },
-    "1": {
+    {
         "email": "shayden@nd.edu",
         "firstName": "Stuart",
         "lastName": "Hayden",
         "passwordHash": "md5sum",
         "neighborhood": "Irish Crossings"
     },
-    "2": {
+    {
         "email": "jhracho@nd.edu",
         "firstName": "Jake",
         "lastName": "Hracho",
         "passwordHash": "md5sum",
         "neighborhood": "Irish Flats"
     }, 
-    "3": {
+    {
         "email": "ntucker2@nd.edu",
         "firstName": "Nora",
         "lastName": "Tucker",
         "passwordHash": "md5sum",
         "neighborhood": "Other"
     },
-    "4": {
+    {
         "email": "tdavis21@nd.edu",
         "firstName": "Thomas",
         "lastName": "Davis",
         "passwordHash": "md5sum",
         "neighborhood": "Irish Crossings"
     }, 
-    "5": {
+    {
         "email": "mroger24@nd.edu",
         "firstName": "Nora",
         "lastName": "Tucker",
         "passwordHash": "md5sum",
         "neighborhood": "Other"
     },
-    "6": {
+    {
         "email": "rfinn2@nd.edu",
         "firstName": "Rory",
         "lastName": "Finn",
         "passwordHash": "md5sum",
         "neighborhood": "Legacy Village"
     },
-    "7": {
+    {
         "email": "arecker2@nd.edu",
         "firstName": "Adam",
         "lastName": "Recker",
         "passwordHash": "md5sum",
         "neighborhood": "Irish Crossings"
     },
-    "8": {
+    {
         "email": "nkloska@nd.edu",
         "firstName": "Nicholas",
         "lastName": "Kloska",
         "passwordHash": "md5sum",
         "neighborhood": "Other"
     },
-    "9": {
+    {
         "email": "mtupy@nd.edu",
         "firstName": "Madeline",
         "lastName": "Tupy",
         "passwordHash": "md5sum",
         "neighborhood": "Irish Crossings"
     },
-    "10": {
+    {
         "email": "dnewton@nd.edu",
         "firstName": "David",
         "lastName": "Newton",
         "passwordHash": "md5sum",
         "neighborhood": "Irish Row"
     }, 
-    "11": {
+    {
         "email": "ckost@nd.edu",
         "firstName": "Caroline",
         "lastName": "Kost",
         "passwordHash": "md5sum",
         "neighborhood": "Campus View"
     },
-    "12": {
+    {
         "email": "lphifer@nd.edu",
         "firstName": "Lucrezia",
         "lastName": "Phifer",
         "passwordHash": "md5sum",
         "neighborhood": "Irish Crossings"
     }
-}
+]
