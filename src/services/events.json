@@ -1,0 +1,30 @@
+[
+    {
+        "id": 0,
+        "title": "South Bend Cubs Game",
+        "date": "2021-10-10",
+        "neighborhood": "Any",
+        "description": "Come to the first Off-Campus event of the year: Thirsty Thursday at Four Winds Field. Lottery opens Wednesday at 5:00pm!"
+    },
+    {
+        "id": 1,
+        "title": "Pumpkin Carving at Irish Row",
+        "date": "2021-10-15",
+        "neighborhood": "Irish Row",
+        "description": "Our hallways aren't looking spooky enough! Join the Row residents in a pumpkin carving night at 8pm on the 25th. Meet in the lobby!"
+    },
+    {
+        "id": 2,
+        "title": "Irish Crossings Block Party",
+        "date": "2021-10-18",
+        "neighborhood": "Irish Crossings",
+        "description": "Meet your Crossings neighbors in our annual block party! It will begin at 3pm. Hope to see you there!"
+    }, 
+    {
+        "id": 3,
+        "title": "Off-Campus Formal",
+        "date": "2021-10-25",
+        "neighborhood": "Any",
+        "description": "The first official Off-Campus Formal will be held at Corby's on the 25th! Doors open at 10pm and tickets are $10 each."
+    }
+]

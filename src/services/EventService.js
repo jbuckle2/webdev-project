@@ -6,16 +6,16 @@ const url = "http://127.0.0.1:5500";
 // CRUD
 
 // Create user service - we do not have a sign up page, but still a good service to have
-export const createUser = (email, firstName, lastName, passwordHash, neighborhood) => {
+export const createEvent = (id, title, date, neighborhood, description) => {
     return axios({
         method: "post", 
-        url: `${url}/users.json`,
+        url: `${url}/events.json`,
         data: {
-            email,
-            firstName,
-            lastName,
-            email,
-            passwordHash
+            id,
+            title,
+            date,
+            neighborhood,
+            description
         },
         headers: {
         "Content-Type": "application/json"
@@ -31,9 +31,9 @@ export const createUser = (email, firstName, lastName, passwordHash, neighborhoo
 };
 
 // get all users service
-export const getUsers = () => {
+export const getEvents = () => {
     return axios
-        .get(`${url}/users.json`)
+        .get(`${url}/events.json`)
         .then((response) => {
             console.log(response.data);
             return response.data;
@@ -44,11 +44,11 @@ export const getUsers = () => {
 };
 
 // get one user service - useful for auth and login process
-export const getUser = (email) => {
+export const getEvent = (id) => {
     return axios
-        .get(`${url}/users.json`, {
+        .get(`${url}/events.json`, {
             params: {
-                email: email
+                id: id
             }
         })
         .then((response) => {
@@ -60,9 +60,10 @@ export const getUser = (email) => {
         });
 }; 
 
-export const deleteUser = (id) => {
+// get one user service - useful for auth and login process
+export const deleteEvent = (id) => {
     return axios
-        .delete(`${url}/users.json`, {
+        .delete(`${url}/events.json`, {
             params: {
                 id: id
             }
