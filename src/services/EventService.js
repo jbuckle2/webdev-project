@@ -1,12 +1,11 @@
-import axios from "axios";
-
 // this is the live server that i am viewing my webpage on
-const url = "http://127.0.0.1:5500";
+const url = "http://127.0.0.1:5500/src/services";
 
 // CRUD
 
 // Create user service - we do not have a sign up page, but still a good service to have
 export const createEvent = (id, title, date, neighborhood, description) => {
+    const axios = window.axios;
     return axios({
         method: "post", 
         url: `${url}/events.json`,
@@ -32,10 +31,10 @@ export const createEvent = (id, title, date, neighborhood, description) => {
 
 // get all users service
 export const getEvents = () => {
+    const axios = window.axios;
     return axios
         .get(`${url}/events.json`)
         .then((response) => {
-            console.log(response.data);
             return response.data;
         })
         .catch((err) => {
@@ -45,6 +44,7 @@ export const getEvents = () => {
 
 // get one user service - useful for auth and login process
 export const getEvent = (id) => {
+    const axios = window.axios;
     return axios
         .get(`${url}/events.json`, {
             params: {
@@ -52,7 +52,6 @@ export const getEvent = (id) => {
             }
         })
         .then((response) => {
-            console.log(response.data);
             return response.data;
         })
         .catch((err) => {
@@ -62,6 +61,7 @@ export const getEvent = (id) => {
 
 // get one user service - useful for auth and login process
 export const deleteEvent = (id) => {
+    const axios = window.axios;
     return axios
         .delete(`${url}/events.json`, {
             params: {
@@ -69,7 +69,6 @@ export const deleteEvent = (id) => {
             }
         })
         .then((response) => {
-            console.log(response.data);
             return response.data;
         })
         .catch((err) => {
