@@ -14,11 +14,3 @@ export default function Card({event}) {
         </div>
     `;
 }
-
-/* <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
-                <div class="card-header">Friday</div>
-                <div class="card-body">
-                  <h5 class="card-title">West Quad Cookout</h5>
-                  <p class="card-text">Come to the West-Quad-wide cookout this Friday. There will be Spikeball, ice cream, and a DJ!</p>
-                </div>
-            </div> */

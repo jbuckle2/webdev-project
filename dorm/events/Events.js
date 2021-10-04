@@ -7,6 +7,7 @@ import {
 import { getEvents } from "/src/services/EventService.js";
 import Header from "/src/components/Header.js";
 import CardDeck from "../../src/components/Deck/CardDeck.js";
+import SubmitEvent from "../../src/components/SubmitEvent.js";
 
 function Events() {
     const [events, setEvents] = useState([]);
@@ -21,6 +22,7 @@ function Events() {
     return html`
         <${Header} />
         <${CardDeck} events="${events}" />
+        <${SubmitEvent} />
     `;
 }
 
