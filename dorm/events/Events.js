@@ -27,6 +27,7 @@ function Events() {
         const eventNeigh = document.getElementById("event-neigh").value;
         console.log(eventDate);
         createEvent(newEventId, eventTitle, eventDate, eventNeigh, eventDesc);
+        window.location.reload;
     }
 
     return html`

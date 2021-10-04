@@ -1,11 +1,12 @@
 // this is the live server that i am viewing my webpage on
-const url = "http://127.0.0.1:5500";
+const url = "http://127.0.0.1:5500/src/services";
 
 // CRUD
 
 // Create user service - we do not have a sign up page, but still a good service to have
 export const createEvent = (id, title, date, neighborhood, description) => {
     const axios = window.axios;
+    console.log(id, title, date, neighborhood, description);
     return axios({
         method: "post", 
         url: `${url}/events.json`,
