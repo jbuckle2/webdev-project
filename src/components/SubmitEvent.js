@@ -2,22 +2,23 @@ import {
     html
 } from "https://unpkg.com/htm/preact/standalone.module.js";
 
-export default function SubmitEvent() {
+export default function SubmitEvent({onSubmit}) {
     return html`
         <div class="event-submit">
             <form>
                 <div class="container">
                     <p>Submit your own event to be posted</p>
+                    <input type="text" name="event-title" id="event-title" placeholder="Event Title" required />
                     <div class="event-text">
-                        <textarea name="event" cols="50" rows="10">Tell us about your event...</textarea>
+                        <textarea name="event-desc" id="event-desc" cols="50" rows="10" required>Tell us about your event...</textarea>
                     </div>
+                    <input type="text" name="event-neigh" id="event-neigh" placeholder="Neighborhood" required />
                     <br />
-                    <p>Attach a file (optional)</p>
-                    <input type="file" name="eventfile" />
+                    <input type="date" name="event-date" id="event-date" required />
                     <br />
-                    <a href="#" class="btn btn-primary">Submit</a>
+                    <a class="btn btn-primary" onclick="${onSubmit}">Submit</a>
                 </div>
             </form>
         </div>
-    `
+    `;
 }
