@@ -5,9 +5,8 @@ export default function Header() {
     return html`
     <!--Site image/title heading-->
         <div class="heading">
-            <img src="../../images/pawprints.png" alt="pawprints" title="Pawprints of the Wildcats!"/>
-            <h1>Ryan Hall</h1>
-            <h2>Where the Wild Things Are!</h2>
+            <h1 style="text-align:left">Notre Dame Off-Campus Hub</h1>
+            <h3 style="text-align:left">Bringing the off-campus community together!</h3>
         </div>
         <!--End of site image/title heading-->
 
