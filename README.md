@@ -43,7 +43,7 @@ The Off-Campus Hub is a place where students at Notre Dame who reside off-campus
 
 ## Getting Started
 
-To view the website locally on your computer, open the index.html with a live server.
+To view the website locally on your computer, open the index.html locally with a live server on port 5500.
 
 ### Prerequisites
 
@@ -59,7 +59,7 @@ Off-Campus Hub will experience minor improvements and bug fixes as the semester 
 
 ## Contact
 
-Julia Buckley - jbuckle2@nd.edu
+Julia Buckley - jbuckle2@nd.edu \
 Stuart Hayden - shayden2@nd.edu
 
 <!-- Project Link: [https://github.com/shayden2/cyber_hub](https://github.com/jbuckle2/webdev-project) -->
