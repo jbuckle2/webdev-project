@@ -70,7 +70,7 @@ Stuart Hayden - shayden2@nd.edu
 
 - Professor Wicks
 - [Bootstrap](https://getbootstrap.com/)
-- React JS(https://reactjs.com/)
+- [React JS](https://reactjs.com/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
