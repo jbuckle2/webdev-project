@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // this is the live server that i am viewing my webpage on
-const url = "http://127.0.0.1:5500";
+const url = "http://127.0.0.1:5500/src/services";
 
 // CRUD
 
