@@ -2,6 +2,7 @@ import {
     html
 } from "https://unpkg.com/htm/preact/standalone.module.js";
 
+// individual card to display a single event
 export default function Card({event}) {
     return html`
         <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">

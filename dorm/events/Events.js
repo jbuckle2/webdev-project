@@ -10,6 +10,7 @@ import CardDeck from "../../src/components/Deck/CardDeck.js";
 import SubmitEvent from "../../src/components/SubmitEvent.js";
 
 function Events() {
+    // get data to pass down
     const [events, setEvents] = useState([]);
 
     useEffect(() => {
@@ -18,22 +19,27 @@ function Events() {
         });
     });
 
-    function makeNewEvent() {
-        const lastEventId = events[events.length - 1].id;
-        const newEventId = lastEventId + 1;
-        const eventTitle = document.getElementById("event-title").value;
-        const eventDesc = document.getElementById("event-desc").value;
-        const eventDate = document.getElementById("event-date").value;
-        const eventNeigh = document.getElementById("event-neigh").value;
-        console.log(eventDate);
-        createEvent(newEventId, eventTitle, eventDate, eventNeigh, eventDesc);
-        window.location.reload;
-    }
+    // function makeNewEvent() {
+    //     const lastEventId = events[events.length - 1].id;
+    //     const newEventId = lastEventId + 1;
+    //     const eventTitle = document.getElementById("event-title").value;
+    //     const eventDesc = document.getElementById("event-desc").value;
+    //     const eventDate = document.getElementById("event-date").value;
+    //     const eventNeigh = document.getElementById("event-neigh").value;
+    //     console.log(eventDate);
+    //     createEvent(newEventId, eventTitle, eventDate, eventNeigh, eventDesc);
+    //     window.location.reload;
+    // }
 
     return html`
+        <!-- Generic Header -->
         <${Header} />
+
+        <!-- Card Deck for events -->
         <${CardDeck} events="${events}" />
-        <${SubmitEvent} onSubmit="${makeNewEvent}"/>
+
+        <!-- Form to submit events -->
+        <${SubmitEvent} />
     `;
 }
 

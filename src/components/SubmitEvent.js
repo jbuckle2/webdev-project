@@ -2,6 +2,7 @@ import {
     html
 } from "https://unpkg.com/htm/preact/standalone.module.js";
 
+// form to submit event
 export default function SubmitEvent({onSubmit}) {
     return html`
         <div class="event-submit">

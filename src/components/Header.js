@@ -1,5 +1,6 @@
 import { html } from "https://unpkg.com/htm/preact/standalone.module.js";
 
+// default header
 export default function Header() {
     return html`
     <!--Site image/title heading-->
@@ -12,9 +13,7 @@ export default function Header() {
 
         <!--Site navbar-->
         <ul class="navbar">
-            <li><a href="../home/home.html">Home</a></li>
             <li><a href="../announcements/announcements.html"> Announcements</a></li>
-            <li><a href="../chat/chat.html"> Chat</a></li>
             <li><a href="../events/events.html"> Events</a></li>
             <li><b><a href="../../index.html"> Log Out</a></b></li>
         </ul>
