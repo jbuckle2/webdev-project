@@ -11,7 +11,7 @@ function Index() {
             <div class="p-5 text-center bg-light">
                 <h1 class="mb-3">Notre Dame Off-Campus Hub</h1>
                 <h4 class="mb-3">A platform for Notre Dame off-campus students to access all off-campus information</h4>
-                <a class="btn btn-primary" href="login/login.html" role="button">Log In with ND Email</a>
+                <a class="btn btn-primary" href="./login.html" role="button">Log In with ND Email</a>
             </div>
             <!-- Jumbotron -->
         </div>
