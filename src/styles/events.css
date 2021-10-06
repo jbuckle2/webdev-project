@@ -38,6 +38,10 @@
     position: relative;
 }
 
+.heading h3 {
+    padding-left: .75em;
+}
+
 body {
     font-family: 'DM Sans';
 }

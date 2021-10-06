@@ -14,9 +14,9 @@ function Login() {
         </div>
         <!--This form submission will automatically take you to the home page-->
         <!--TODO: When backend is connected can add full login/student authentication-->
-        <form action="../dorm/home/home.html">
+        <form action="../dorm/events/events.html">
             <div class="login-form">
-                <label for="email"><b>Email: </b></label>
+                <label for="email"><b>Email:   </b></label>
                 <input
                     type="text"
                     placeholder="domer@nd.edu"
@@ -25,7 +25,7 @@ function Login() {
                     required
                 />
                 <br />
-                <label for="psw"><b>Password: </b></label>
+                <label for="psw"><b>Password:  </b></label>
                 <input
                     type="password"
                     placeholder="********"
@@ -34,7 +34,7 @@ function Login() {
                     required
                 />
                 <hr />
-                <a class="btn btn-primary" href="events.html" role="button">Log In</a>
+                <a class="btn btn-primary" href="./events.html" role="button">Log In</a>
             </div>
         </form>
         <!--This is the only navigation for this page because the user has not logged in yet-->

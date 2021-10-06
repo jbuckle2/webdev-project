@@ -38,6 +38,10 @@
     position: relative;
 }
 
+.heading h3 {
+    padding-left: .75em;
+}
+
 /* Font family that is used for the majority of the site */
 body {
     font-family: 'DM Sans';

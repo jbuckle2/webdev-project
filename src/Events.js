@@ -6,8 +6,9 @@ import {
 } from "https://unpkg.com/htm/preact/standalone.module.js";
 import { getEvents, createEvent } from "/src/services/EventService.js";
 import Header from "/src/components/Header.js";
-import CardDeck from "./components/Deck/CardDeck.js";
-import SubmitEvent from "./components/SubmitEvent.js";
+
+import CardDeck from "../../src/components/Deck/CardDeck.js";
+import SubmitEvent from "../../src/components/SubmitEvent.js"
 
 function Events() {
     // get data to pass down
