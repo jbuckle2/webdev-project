@@ -7,7 +7,7 @@ function Login() {
     return html`
         <div class="login-welcome">
             <div class="header-img">
-                <img src="../images/nd_students.jpeg" alt="Notre Dame students walking to class" title="Notre Dame students are just as social as they are academic!"/>
+                <img src="../src/images/nd_students.jpeg" alt="Notre Dame students walking to class" title="Notre Dame students are just as social as they are academic!"/>
             </div>
             <h1>Log In</h1>
             <h2>Please log in using your Notre Dame email.</h2>
@@ -34,11 +34,11 @@ function Login() {
                     required
                 />
                 <hr />
-                <a class="btn btn-primary" href="../dorm/home/home.html" role="button">Log In</a>
+                <a class="btn btn-primary" href="events.html" role="button">Log In</a>
             </div>
         </form>
         <!--This is the only navigation for this page because the user has not logged in yet-->
-        <a class="btn btn-primary" href="../index.html" role="button">Go Back</a>
+        <a class="btn btn-primary" href="index.html" role="button">Go Back</a>
     `
 }
 
