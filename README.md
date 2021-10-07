@@ -42,7 +42,7 @@ The Off-Campus Hub is a place where students at Notre Dame who reside off-campus
 
 ## Getting Started
 
-To view the website locally on your computer, open the index.html locally with a live server on port 5500.
+To view the website locally on your computer, open the public/index.html locally with a live server on port 5500.
 
 ### Prerequisites
 
